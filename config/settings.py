@@ -1,0 +1,18 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+DB_URL = os.getenv("DATABASE_URL")
+
+
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+UNSTRACT_API_KEY = os.getenv("UNSTRACT_API_KEY")
+UNSTRACT_URL_WORKFLOW = os.getenv("UNSTRACT_URL_WORKFLOW")
+
+
+DOCAI_URL = os.getenv("DOCAI_URL")
+# DOCAI_PROJECT_ID = os.getenv("DOCAI_PROJECT_ID")
+# DOCAI_LOCATION = os.getenv("DOCAI_LOCATION", "us")
+# DOCAI_PROCESSOR_ID = os.getenv("DOCAI_PROCESSOR_ID")
+# GOOGLE_APPLICATION_CREDENTIALS = os.getenv("GOOGLE_APPLICATION_CREDENTIALS")
